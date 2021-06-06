@@ -1,2 +1,2 @@
 # Smart-Contract
-BEP-20 Token
+TRC-20 Token
