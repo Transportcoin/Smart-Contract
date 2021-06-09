@@ -16,7 +16,7 @@ contract Token is ERC20, ERC20Detailed {
     /**
      * @dev Constructor that gives msg.sender all of existing tokens.
      */
-    constructor () public ERC20Detailed("Global Transport Chain", "GTCW", 10) {
+    constructor () public ERC20Detailed("Global Transport Chain", "GTCW", 6) {
         _mint(msg.sender, 160000000000 * (10 ** uint256(decimals())));
     }
 }
